@@ -1,4 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="EE317E8A-0238-06E8-C039-DD5CD848045D" name="Dependiente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
    <object objectType="Entity" objectID="724969CD-74BE-0667-FF41-28BB0340F1D8" name="Empleado" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D113E6D5-4102-9A2F-F186-F0DD10B26EDB" name="Seguro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
