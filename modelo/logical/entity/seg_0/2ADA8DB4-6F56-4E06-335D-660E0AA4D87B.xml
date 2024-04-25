@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE317E8A-0238-06E8-C039-DD5CD848045D" name="Usuario">
-<createdBy>laszlo</createdBy>
-<createdTime>2024-04-25 01:24:27 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2ADA8DB4-6F56-4E06-335D-660E0AA4D87B" name="Dependiente">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:10:09 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idEmpleado" id="389F5EE3-DEB6-EF06-455F-428005CBCBA1">
+<Attribute name="idEmpleado" id="25C01DB7-096C-1D7A-C81D-8EAB381D006D">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:04:28 UTC</createdTime>
+<createdTime>2024-04-25 02:10:21 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -27,23 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nomUsuario" id="2CD50C02-42E6-C9B7-817A-C3BAFAC6480B">
+<Attribute name="dni" id="F89B51EA-3687-AE17-68DD-98CE6ECEFE1E">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:04:29 UTC</createdTime>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="contraseña" id="AE98B543-58F0-ABE5-0FE5-57969E0479F0">
-<createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:04:29 UTC</createdTime>
+<createdTime>2024-04-25 02:10:22 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -55,9 +41,9 @@
 <dataTypeSize>8</dataTypeSize>
 <ownDataTypeParameters>8,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="E7146938-7B00-5824-1FB0-125EB94EDB76">
+<Attribute name="fechaNacimiento" id="8D15ABF2-0B9D-786A-31E0-3995751CD365">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:04:29 UTC</createdTime>
+<createdTime>2024-04-25 02:10:22 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -65,22 +51,35 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estudioSuperior" id="71A5C1BD-783C-7E9F-E8E7-A5A11E0FF32C">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:10:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="13026D16-8749-55DD-A2B6-8569D0CC5E5A" name="Usuario PK">
+<identifier id="BD1381ED-3AB3-6A2E-B3C6-35BCDA288AAB" name="Dependiente PK">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:07:08 UTC</createdTime>
+<createdTime>2024-04-25 02:11:10 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>389F5EE3-DEB6-EF06-455F-428005CBCBA1</attributeRef>
+<attributeRef>25C01DB7-096C-1D7A-C81D-8EAB381D006D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

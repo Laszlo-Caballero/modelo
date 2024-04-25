@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D113E6D5-4102-9A2F-F186-F0DD10B26EDB" name="Seguro">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D113E6D5-4102-9A2F-F186-F0DD10B26EDB" name="Horario">
 <createdBy>laszlo</createdBy>
 <createdTime>2024-04-25 01:32:16 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -14,4 +14,58 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idEmpleado" id="DFCE767F-4FD4-6555-0156-87ED018CB7E5">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:07:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaEntrada" id="EEDD9E07-6EE2-82EA-4215-7083673C85AB">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:07:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horaSalida" id="C93437E8-20C4-39EE-5DB6-9CF535D45DB8">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:07:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43C40DDB-6B80-D9D8-847A-A983566B924D" name="Horario PK">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:07:48 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DFCE767F-4FD4-6555-0156-87ED018CB7E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="171E7B4C-787B-FE1F-09D2-AA6E7D770A93" name="Asignacion Familiar">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3853126-B276-EB47-0CBF-77FCF009557B" name="Seguro">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 01:50:29 UTC</createdTime>
+<createdTime>2024-04-25 02:11:28 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -15,9 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idEmpleado" id="7CD574BC-057B-4193-67A4-6C2FC21F61A2">
+<Attribute name="erechoHabiente" id="EE2A8D41-176A-9DB2-9035-443B4AB3D0C5">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:46 UTC</createdTime>
+<createdTime>2024-04-25 02:11:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idEmpleado" id="114135D6-E58C-5EB1-989A-D89C37C45E4D">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:11:36 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -27,30 +41,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hijos" id="090E4ACD-76EC-AE8B-1141-628A74A91025">
-<createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:46 UTC</createdTime>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F2D820E7-8A2E-CC4B-BCA1-51BCB85F50E3" name="Asignacion Familiar PK">
+<identifier id="8A24043F-1103-8C05-A3F5-419EC3D04443" name="Seguro PK">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:59 UTC</createdTime>
+<createdTime>2024-04-25 02:11:46 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7CD574BC-057B-4193-67A4-6C2FC21F61A2</attributeRef>
+<attributeRef>114135D6-E58C-5EB1-989A-D89C37C45E4D</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

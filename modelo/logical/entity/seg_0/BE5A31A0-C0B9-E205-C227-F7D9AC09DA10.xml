@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="171E7B4C-787B-FE1F-09D2-AA6E7D770A93" name="Asignacion Familiar">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE5A31A0-C0B9-E205-C227-F7D9AC09DA10" name="Departamento">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 01:50:29 UTC</createdTime>
+<createdTime>2024-04-25 02:02:36 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="idEmpleado" id="7CD574BC-057B-4193-67A4-6C2FC21F61A2">
+<Attribute name="idDepartamento" id="09BF8F28-A5D6-B8F4-2D6E-42125F54EAE2">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:46 UTC</createdTime>
+<createdTime>2024-04-25 02:02:49 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="hijos" id="090E4ACD-76EC-AE8B-1141-628A74A91025">
+<Attribute name="nombre" id="EF00E488-824D-A077-FCAE-C0A24D9F5510">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:46 UTC</createdTime>
+<createdTime>2024-04-25 02:03:00 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
@@ -37,20 +37,36 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="desDepartamento" id="9F3226F8-C35C-B83D-E49E-E20D50FF8806">
+<createdBy>LUCIANA</createdBy>
+<createdTime>2024-04-25 02:03:17 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="F2D820E7-8A2E-CC4B-BCA1-51BCB85F50E3" name="Asignacion Familiar PK">
+<identifier id="F58D1376-39BA-CA92-548E-5089FD172BDF" name="Departamento PK">
 <createdBy>LUCIANA</createdBy>
-<createdTime>2024-04-25 02:08:59 UTC</createdTime>
+<createdTime>2024-04-25 02:03:49 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7CD574BC-057B-4193-67A4-6C2FC21F61A2</attributeRef>
+<attributeRef>09BF8F28-A5D6-B8F4-2D6E-42125F54EAE2</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
