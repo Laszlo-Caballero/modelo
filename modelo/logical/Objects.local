@@ -1,6 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
-   <object objectType="Entity" objectID="EE317E8A-0238-06E8-C039-DD5CD848045D" name="Dependiente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="171E7B4C-787B-FE1F-09D2-AA6E7D770A93" name="Asignacion Familiar" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2ADA8DB4-6F56-4E06-335D-660E0AA4D87B" name="" seqName="seg_0"/>
    <object objectType="Entity" objectID="724969CD-74BE-0667-FF41-28BB0340F1D8" name="Empleado" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B21D1956-D312-0365-5465-2C9DD94FB378" name="Asistencia" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BE5A31A0-C0B9-E205-C227-F7D9AC09DA10" name="" seqName="seg_0"/>
    <object objectType="Entity" objectID="D113E6D5-4102-9A2F-F186-F0DD10B26EDB" name="Seguro" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="EE317E8A-0238-06E8-C039-DD5CD848045D" name="Dependiente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="799A2AB0-9F99-1DC2-1962-9C17D74DFC0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F3853126-B276-EB47-0CBF-77FCF009557B" name="" seqName="seg_0"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>
