@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A4124BA-655A-B830-B6FE-888251A3AE37" name="Departamento">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>D760B4CB-FEA5-948A-18A6-62B7898CAD93</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDepartamento" id="112402FC-0130-D80F-8234-CB16EB0AA126">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>2E45497B-DD71-196D-9BB8-7925379FE041</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="1DB09558-C706-ED1F-B3A7-B1E1E5A10E2E">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>86698263-E109-1889-12D7-FD32B0561570</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DescDepartamento" id="71E51C7A-BECB-3A7A-73E5-E8ADE8359E4B">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>5165A601-A66A-575D-9F78-8F6893AD994B</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_IdEmpleado" id="7E79E06A-8B16-117D-C7A2-B57C37189546">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>98004085-EA2B-CB1D-084B-B4CD5AC24AE3</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C62BD314-6998-36AF-6BD8-5EF5629FCE4A" referredColumn="DF405D8F-CC42-F4CE-537A-80FAB3CDD765"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B531B997-969C-95E0-1CCC-260F477FCF61" name="Departamento_PK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>518BF5E2-2FC6-971C-3777-EEE34E298498</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="112402FC-0130-D80F-8234-CB16EB0AA126"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1DD9AF6-9D6E-4658-E13A-E68DA17B3FBF" name="Departamento__IDX">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E7D6DC8D-FD6E-27C6-3947-A10100231E29</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7E79E06A-8B16-117D-C7A2-B57C37189546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B426E29-A993-7491-64BE-FCED14049CC5" name="Departamento_Empleado_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>E7D6DC8D-FD6E-27C6-3947-A10100231E29</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E79E06A-8B16-117D-C7A2-B57C37189546"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

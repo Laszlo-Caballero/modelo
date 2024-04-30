@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92E65816-35F2-71C5-3553-340274C07187" name="Bonificacion">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:30:19 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FechaDePago" id="96EF895C-22E2-955B-0B98-611245F3D5C9">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:30:51 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Motivo" id="A1860990-D3BF-F1D9-8C7B-E6EA359223AE">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:31:12 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="2B9C178B-DD7C-948F-E670-9DE8FF9C0556">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:31:28 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

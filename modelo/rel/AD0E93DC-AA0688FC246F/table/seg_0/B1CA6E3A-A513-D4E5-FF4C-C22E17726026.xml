@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1CA6E3A-A513-D4E5-FF4C-C22E17726026" name="Empleado">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>BD409FDF-10D2-AE2D-33A4-E23D88F316E8</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdEmpleado" id="DF405D8F-CC42-F4CE-537A-80FAB3CDD765">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>47EB46DB-FCD9-34E8-8988-01FD9A7BF5F0</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="29135AEA-896F-2264-54E5-02C21998CBE8">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>F9615E0B-B6DC-8E76-A6E3-BA32722B0AA3</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="BF33DEC8-FAA9-F85A-E8B7-4B242C7AA123">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>4424775E-3CE7-7523-006D-98849C4C8D0B</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dni" id="DD58D322-9158-C967-5D91-AB5DEEF0907B">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>A73678D4-9913-3846-0DC0-E8B7493BF463</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="62D22F43-CF44-7668-1724-B48559DFAD36">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>38BCC4EF-B54C-4D81-B840-2B57FEC2A280</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="98EADEB9-1944-1C25-839C-367629F8597E">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>6A9A8AB6-676F-14CF-66FF-CFA5D56992EA</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="departamento" id="8694E90D-E6E6-35B5-FC15-F1F20E77795D">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>BCF28647-84A9-60AE-168C-19CB6C85A285</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependientes_Dependientes_ID" id="0F759B6F-F0AA-4ABB-63DA-406713948B16">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4112FB2-4AEE-D18C-9473-DAA46FFCCBEC" referredColumn="DCACEA35-866D-2781-7B39-E596849E5178"/>
+</associations>
+</Column>
+<Column name="PagoMensual_PagoMensual_ID" id="8642F797-F1FB-ADED-CCCF-A90C8F7FC58D">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9614770-632D-DF86-0B14-E6FFD785EFEE" referredColumn="8F8B5DEF-977F-B8D9-2251-146631425CCE"/>
+</associations>
+</Column>
+<Column name="Asistencia_Asistencia_ID" id="CDAB8C35-3AAD-493E-D221-F84C36B43C71">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="924365FB-F7DA-1268-2B48-32A8901E431F" referredColumn="F5333DC4-9746-80BB-1E07-60FF63C463CB"/>
+</associations>
+</Column>
+<Column name="Bonificacion_Bonificacion_ID" id="34841D81-8B65-6D8E-5ED0-CC5D40F797A4">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="228B99ED-37B8-F0E1-DB55-6E08C3137698" referredColumn="5F88BE66-AAF1-640D-C696-16AFB0B7EE23"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F183839A-8DCC-6C21-964F-11BB32B4A37C" name="Empleado_PK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>EB34F9B6-1FC0-F440-8BC2-50A146732D0F</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF405D8F-CC42-F4CE-537A-80FAB3CDD765"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3AE7D689-F7C9-EC30-2A73-B7AA438546C5" name="Empleado_Dependientes_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<generatorID>4C9D7BD6-C6D7-DED6-C913-E160BD2C138B</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F759B6F-F0AA-4ABB-63DA-406713948B16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9E68517-B68A-8CD0-C50F-6595EC2E48AC" name="Empleado_PagoMensual_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<generatorID>ED7B502D-23EE-2DE4-DD5F-76A987897FF9</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8642F797-F1FB-ADED-CCCF-A90C8F7FC58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7283723C-B33F-E0A4-7A16-D18D14A317AC" name="Empleado_Asistencia_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<generatorID>32662DAC-3444-7D90-9B35-5E39FECAED9A</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CDAB8C35-3AAD-493E-D221-F84C36B43C71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F93D29CF-4EE9-095B-A11D-19FD2481B103" name="Empleado_Bonificacion_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:17:16 UTC</createdTime>
+<generatorID>692D0051-1FFD-AAF8-2DAE-270F01D8CB58</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34841D81-8B65-6D8E-5ED0-CC5D40F797A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

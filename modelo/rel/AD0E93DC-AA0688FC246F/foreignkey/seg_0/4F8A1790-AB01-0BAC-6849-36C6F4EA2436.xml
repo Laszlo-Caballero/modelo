@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F8A1790-AB01-0BAC-6849-36C6F4EA2436" containerWithKeyObject="98DDB920-59C6-2D6D-7A0E-AE57D2CE0E16" localFKIndex="99A4C615-1CB9-1FF5-53FD-E5E8D3BA6A6A" name="PagoMensual_Bonificacion_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>7862AF3E-B5D2-C652-1F12-49E893A3A77A</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<referredTableLongName>Bonificacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AF8B8AC2-43CA-29A3-B167-75835EBF21A1</referredTableID>
+<keyObject>9DF6303A-469F-1840-9078-3DF2B6E4BC7E</keyObject>
+<referredKeyID>9DF6303A-469F-1840-9078-3DF2B6E4BC7E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Bonificacion_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

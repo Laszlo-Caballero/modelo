@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCC6F8ED-E63A-8C4F-2DC3-3DA34BC74F6E" name="Seguro">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>182B70C7-5FCA-296E-8532-92AFBF30941B</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DerechoAmbiente" id="2E2F3CB2-0FC3-2BF7-A9A2-3DAC3A2D78BC">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>68DD7A9D-68AF-A241-99A5-94E17E29CBDE</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_IdEmpleado" id="56CE4ECB-34D2-1C8E-17ED-3878E0049A54">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>DB8BDD44-288F-E079-AF48-AA6C7CA279DA</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2AB99CB-DCB7-2117-F915-6158F593E42F" referredColumn="DF405D8F-CC42-F4CE-537A-80FAB3CDD765"/>
+</associations>
+</Column>
+<Column name="Dependientes_Dependientes_ID" id="EE5701A0-C875-8A44-F1A6-2E80DA42C4FA">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3EEDDCA-B7AD-D8E2-FD94-DD0E1F82859D" referredColumn="DCACEA35-866D-2781-7B39-E596849E5178"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2936973-2159-2501-C92C-BCF4BD96DC77" name="Seguro__IDX">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B9884144-4AAE-AA1C-8015-0A6CF108270E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="56CE4ECB-34D2-1C8E-17ED-3878E0049A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B33248BA-710B-A1B0-4B78-2DF955D3C4C4" name="Seguro_Empleado_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>B9884144-4AAE-AA1C-8015-0A6CF108270E</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56CE4ECB-34D2-1C8E-17ED-3878E0049A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04E029CC-7ACE-5539-E098-7976EBF01A46" name="Seguro_Dependientes_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>2448C2E4-2EEA-C773-D78D-5B302BD4E4AA</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE5701A0-C875-8A44-F1A6-2E80DA42C4FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

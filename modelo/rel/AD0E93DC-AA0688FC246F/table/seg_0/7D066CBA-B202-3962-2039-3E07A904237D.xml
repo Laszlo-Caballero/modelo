@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D066CBA-B202-3962-2039-3E07A904237D" name="Dependientes">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>A5B0455F-2B5F-4201-5EBE-CFB1D515EDFD</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dni" id="D6E81D55-B04B-842C-60E5-525BE243180C">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>AEFFAF14-0B9B-CEA9-0453-1C493B432AAA</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FechaNacimiento" id="04CA11F2-8470-D9A9-B148-2D19F43DF55F">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>4119D992-C382-B914-3458-84854B415AAE</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EstudioSuperior" id="0A45BA27-6EA7-E500-96F7-60DDC82979F0">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>440A3568-41BB-1C9C-B342-ABE544989E2B</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AsignacionFamiliar" id="26C1CB19-AD98-C061-221B-29D2AD948DB7">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>E17F13EF-BE46-50AF-78A0-7CA47F749379</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dependientes_ID" id="DCACEA35-866D-2781-7B39-E596849E5178">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="31CD4DA1-87C4-DEB1-8579-963541FDB017" name="Dependientes_PK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DCACEA35-866D-2781-7B39-E596849E5178"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

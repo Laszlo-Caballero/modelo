@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE1B9840-851B-260C-0243-E2896CB17BC4" name="Descuento">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:21:02 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Motivo" id="FCA3086F-7768-4F37-8384-A37C149A3FCE">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:21:15 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="275D99B2-76CF-736D-B83B-E5660697AE1E">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:21:44 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

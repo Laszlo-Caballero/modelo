@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA0E716F-48A1-63F0-15C6-52080993E509" name="Contrato">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:47:44 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="85FE3C11-BD6E-2743-A26F-786BAF90325A">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:47:52 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaInicio" id="157A3388-CFDD-023E-E483-8969557B7BA6">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:48:47 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FechaFin" id="2F0F5F24-0F9E-5995-387B-344FEAACF532">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:49:35 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DiaPago" id="2FA57B92-38D1-1355-8B33-CBF6647E2DA3">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:49:53 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sede" id="75FE74F0-5C8A-3802-983D-32AD7D9FCF27">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:50:24 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Archivo" id="B876A60E-D411-110B-3E74-9987A951D679">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:50:38 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salario" id="773CA539-83ED-A733-8C70-63E8688CB4DC">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:50:55 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdEmpleado" id="FC88077F-FD8C-24FA-EB44-BEF6A0C35643">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 02:51:32 UTC</createdTime>
+<generatorID>85F96D8A-FBDD-F600-1D25-3A430BE44132</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<engineerTo>
+<item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
+</engineerTo>
+<referedAttribute>47EB46DB-FCD9-34E8-8988-01FD9A7BF5F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C53E1761-F3C8-81AD-1549-E077413DCB53" containerWithKeyObject="7CE6805A-FC4F-A815-50C6-2B4B98E68CCB" localFKIndex="8FE377EA-028F-F5E2-7146-0D7599F3A48C" name="Vacaciones_Ausencia_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>A62DD460-63B8-06ED-4B88-C0A505072567</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<referredTableLongName>Ausencia</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>482821D8-EBC4-3666-26EE-5A0BDC3A9D0B</referredTableID>
+<keyObject>B2380098-762F-4931-EC3A-80B014A6E581</keyObject>
+<referredKeyID>B2380098-762F-4931-EC3A-80B014A6E581</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Ausencia_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

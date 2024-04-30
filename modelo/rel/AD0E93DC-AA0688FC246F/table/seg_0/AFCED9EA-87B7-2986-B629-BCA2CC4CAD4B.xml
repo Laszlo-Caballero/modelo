@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFCED9EA-87B7-2986-B629-BCA2CC4CAD4B" name="Cuenta">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>EA26D7A2-A501-44F8-24AB-19171721FAB3</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FondoCTS" id="7EE0AC89-C2C0-132F-5768-0E40F95429E4">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>92FF5C2B-EDC2-055D-A1A6-CD5217154BD0</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CuentaSaldo" id="8CC59828-C73C-7C73-F178-D074ADF87DC2">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>2C3B008A-2683-1986-7A5C-C559393E67C5</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CuentaAfp" id="4EF33019-B1E0-1B95-DCEB-D5FB7107AEB9">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>4B719782-3666-FBAD-E714-C08F2628A4F5</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_IdEmpleado" id="6633EECB-A44A-BD8B-9BB6-779081148DA2">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>F9BA4D81-0FFE-24C1-77AB-6C41E3AE0819</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C193D43-1AA3-01A2-0D70-2C4BBF160CBD" referredColumn="DF405D8F-CC42-F4CE-537A-80FAB3CDD765"/>
+</associations>
+</Column>
+<Column name="Cuenta_ID" id="DAAA39F7-0F7D-704E-9E23-454E001C8D39">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="PagoMensual_PagoMensual_ID" id="CB8BFB67-6560-F546-C8A1-2F892B3F4995">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="95A57A08-3188-EBA4-4AC1-DBE98A5B6A51" referredColumn="8F8B5DEF-977F-B8D9-2251-146631425CCE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF3DE251-2510-A7C4-62AB-5D9841961281" name="Cuenta_PK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="DAAA39F7-0F7D-704E-9E23-454E001C8D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B181CAFA-974A-1A16-B5E2-70518B239F81" name="Cuenta__IDX">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>38497F86-D777-0A5F-5B83-75824BA3AEC3</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6633EECB-A44A-BD8B-9BB6-779081148DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27922C7D-FB4B-2AB4-66DA-14B2D4F17570" name="Cuenta_PagoMensual_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>9930624F-7F55-0133-B696-8B19C096DB8E</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8BFB67-6560-F546-C8A1-2F892B3F4995"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E561D63-890D-A47A-6804-A77AA19B2C33" name="Cuenta_Empleado_FK">
+<createdBy>alexi</createdBy>
+<createdTime>2024-04-28 03:00:05 UTC</createdTime>
+<generatorID>38497F86-D777-0A5F-5B83-75824BA3AEC3</generatorID>
+<ownerDesignName>Trabajo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6633EECB-A44A-BD8B-9BB6-779081148DA2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
