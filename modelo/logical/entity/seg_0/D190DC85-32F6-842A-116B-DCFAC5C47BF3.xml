@@ -2,8 +2,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D190DC85-32F6-842A-116B-DCFAC5C47BF3" name="PagoMensual">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:28:42 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -18,8 +19,9 @@
 <Attribute name="PagoTotal" id="FA78FC32-4F34-0349-D3A8-3F13F5A0C554">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:28:54 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -33,8 +35,9 @@
 <Attribute name="Fecha" id="7BB9471F-89CE-AD08-C236-E65F9D962B92">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:29:53 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>

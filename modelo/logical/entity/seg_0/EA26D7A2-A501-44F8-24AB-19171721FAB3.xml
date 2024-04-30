@@ -2,8 +2,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA26D7A2-A501-44F8-24AB-19171721FAB3" name="Cuenta">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:27:03 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -18,8 +19,9 @@
 <Attribute name="FondoCTS" id="92FF5C2B-EDC2-055D-A1A6-CD5217154BD0">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:27:16 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -31,8 +33,9 @@
 <Attribute name="CuentaSaldo" id="2C3B008A-2683-1986-7A5C-C559393E67C5">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:28:09 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -44,8 +47,9 @@
 <Attribute name="CuentaAfp" id="4B719782-3666-FBAD-E714-C08F2628A4F5">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:28:10 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -58,8 +62,9 @@
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:46:44 UTC</createdTime>
 <generatorID>38497F86-D777-0A5F-5B83-75824BA3AEC3</generatorID>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <referedAttribute>47EB46DB-FCD9-34E8-8988-01FD9A7BF5F0</referedAttribute>

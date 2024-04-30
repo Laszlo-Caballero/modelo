@@ -2,8 +2,9 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7766B04-C3EF-6B1E-8A73-C2FC060B6E5A" name="Usuario">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:13:06 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
@@ -18,8 +19,9 @@
 <Attribute name="IdUsuario" id="4F992D24-AEA0-4D4D-29CB-B2B6139F5C8A">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:13:16 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,8 +32,9 @@
 <Attribute name="NombreUsuario" id="02F0747F-EE77-C78B-69C9-82034FC0096D">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:13:27 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -44,8 +47,9 @@
 <Attribute name="Contraseña" id="73658822-302F-9476-E573-0BD4C1974A01">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:13:46 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -58,8 +62,9 @@
 <Attribute name="Email" id="CF6898F9-2FF8-49F3-DBB9-09B8458F26C8">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:14:13 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
@@ -73,8 +78,9 @@
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:43:45 UTC</createdTime>
 <generatorID>ADE396FE-24E7-7FF7-B078-CC90D49F57F5</generatorID>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <referedAttribute>47EB46DB-FCD9-34E8-8988-01FD9A7BF5F0</referedAttribute>
@@ -88,9 +94,10 @@
 <identifier id="6AB10F0A-C2A1-58F3-2EF4-7594883D6928" name="Usuario PK">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:13:26 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="false"/>
 </engineerTo>
 <pk>true</pk>

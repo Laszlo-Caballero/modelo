@@ -2,13 +2,14 @@
 <Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="17EDE519-DC9E-07BD-C538-A266A5162537">
 <createdBy>alexi</createdBy>
 <createdTime>2024-04-28 02:54:56 UTC</createdTime>
-<ownerDesignName>Trabajo</ownerDesignName>
+<ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
+<item key="105C30CF-FD77-D2AA-2376-52615DC0DE35" value="true"/>
 <item key="AD0E93DC-E93F-DBC1-E7CE-AA0688FC246F" value="true"/>
 </engineerTo>
 <identifying>false</identifying>
-<optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>C080FC0A-B751-CC7E-3871-B4704F4898AE</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
